@@ -35,7 +35,7 @@ const Blog = () => {
   return (
     <div>
       <Grid container spacing={5} margin={16}>
-        {cardData.map((blog) => (
+        {cardData.map(blog => (
           <Grid item key={blog._id} xs={12} sm={6} md={4}>
             <Card sx={{ maxWidth: "290px", display: "flex", m: 2 }}>
               <CardActionArea>
